@@ -73,5 +73,7 @@ After the core sequence, use these as the production-level depth pass:
 12. [Contracts, databases and Testcontainers in practice](docs/11-contract-db-testcontainers-practice.md)
 13. [Async, concurrency and distributed-system testing](docs/12-async-concurrency-distributed-practice.md)
 14. [CI gates, performance, security and suite economics](docs/13-ci-performance-security-strategy.md)
+15. [Property-based, mutation and fuzz testing in practice](docs/14-property-mutation-fuzzing-deep-dive.md)
+16. [Frontend, component and E2E testing architecture](docs/15-frontend-component-e2e-deep-dive.md)
 
-These chapters intentionally revisit earlier topics at a deeper level: boundary selection, lifecycle, failure injection, parallelism, diagnostic quality, CI economics and the specific failure modes senior engineers are expected to reason about.
+These chapters intentionally revisit earlier topics at a deeper level: boundary selection, lifecycle, failure injection, parallelism, diagnostic quality, CI economics, generative test techniques, browser/component boundaries and the specific failure modes senior engineers are expected to reason about.
