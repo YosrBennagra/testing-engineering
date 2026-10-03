@@ -1,27 +1,65 @@
-# SiuuuMiniProjet
+# Testing Engineering — 0 → Expert
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.9.
+A practical knowledge base for designing trustworthy software-testing systems. The goal is not "write more tests"; it is to build **fast, deterministic, risk-driven evidence** that software behaves correctly across boundaries.
 
-## Development server
+> Master index: [software-engineer-roadmap](https://github.com/YosrBennagra/software-engineer-roadmap)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Learning order
 
-## Code scaffolding
+1. [Foundations](docs/00-foundations.md)
+2. [Strategy, pyramid/trophy and risk](docs/01-strategy-and-test-shapes.md)
+3. [Unit → integration → component → API → E2E](docs/02-test-levels.md)
+4. [Test doubles, TDD and BDD](docs/03-doubles-tdd-bdd.md)
+5. [Contracts, databases and Testcontainers](docs/04-contract-db-testcontainers.md)
+6. [Frontend, async and concurrency testing](docs/05-frontend-async-concurrency.md)
+7. [Property-based, mutation and coverage](docs/06-property-mutation-coverage.md)
+8. [Performance and security testing](docs/07-performance-security.md)
+9. [Flakiness, CI gates and distributed systems](docs/08-flakiness-ci-distributed.md)
+10. [Senior test architecture and strategy](docs/09-senior-strategy.md)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Use the [A4 wall note](wall-notes/testing-a4.md) for recall and the [senior question bank](exercises/senior-question-bank.md) for review.
 
-## Build
+## Topic map
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+| Area | Owned here | Cross-link instead of duplicate |
+|---|---|---|
+| Test design | strategy, levels, doubles, determinism | [programming-principles](https://github.com/YosrBennagra/programming-principles) |
+| API testing | API-level evidence, contracts | [api-engineering](https://github.com/YosrBennagra/api-engineering) |
+| Database testing | isolation, transactions, realistic infra | [database-engineering](https://github.com/YosrBennagra/database-engineering) |
+| Frontend testing | component/user behavior boundaries | [angular-mastery](https://github.com/YosrBennagra/angular-mastery) |
+| Security testing | test strategy and placement | [application-security](https://github.com/YosrBennagra/application-security) |
+| Performance | workload/SLO evidence | [system-design](https://github.com/YosrBennagra/system-design) |
+| CI gates | testing signal and gate design | [devops-platform-engineering](https://github.com/YosrBennagra/devops-platform-engineering) |
 
-## Running unit tests
+## Progress checklist
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [ ] Explain testing as an evidence system, not a coverage contest.
+- [ ] Choose test boundaries from risk and economics.
+- [ ] Distinguish unit, integration, component, API and E2E by boundary.
+- [ ] Use mocks/stubs/spies/fakes deliberately.
+- [ ] Apply TDD/BDD without ceremony.
+- [ ] Design contract tests for independently deployable services.
+- [ ] Test database/transaction behavior with realistic infrastructure.
+- [ ] Use Testcontainers where dependency semantics matter.
+- [ ] Test frontend behavior without implementation coupling.
+- [ ] Test async/concurrent behavior without arbitrary sleeps.
+- [ ] Apply property-based and mutation testing.
+- [ ] Design load/stress/soak/spike tests.
+- [ ] Place security tests appropriately.
+- [ ] Diagnose and eliminate flaky tests.
+- [ ] Use coverage and CI gates as signals, not vanity metrics.
+- [ ] Test retries, partial failure, duplication and eventual consistency.
+- [ ] Build maintainable senior-level test architecture.
 
-## Running end-to-end tests
+## Repository principles
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Prefer **observable behavior** over implementation detail.
+- Prefer the **lowest-cost test that can disprove the relevant risk**.
+- Use real dependencies when semantics matter; use controlled doubles when speed/control matters.
+- A passing test is useful only if it can fail for the right reasons.
+- Flakiness is a defect in the test system.
+- Domain theory belongs in its owning repository; this repo links to it.
 
-## Further help
+## Expert bar
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+An expert can explain not only *how* to write a test, but why it belongs at a boundary, what false confidence it may create, how it behaves under parallel CI, what defect class it detects, and whether its maintenance cost is justified.
