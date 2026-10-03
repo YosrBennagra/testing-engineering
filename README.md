@@ -63,3 +63,15 @@ Use the [A4 wall note](wall-notes/testing-a4.md) for recall and the [senior ques
 ## Expert bar
 
 An expert can explain not only *how* to write a test, but why it belongs at a boundary, what false confidence it may create, how it behaves under parallel CI, what defect class it detects, and whether its maintenance cost is justified.
+
+
+## Expert deep dives
+
+After the core sequence, use these as the production-level depth pass:
+
+11. [Test design, fixtures and maintainability](docs/10-test-design-fixtures-deep-dive.md)
+12. [Contracts, databases and Testcontainers in practice](docs/11-contract-db-testcontainers-practice.md)
+13. [Async, concurrency and distributed-system testing](docs/12-async-concurrency-distributed-practice.md)
+14. [CI gates, performance, security and suite economics](docs/13-ci-performance-security-strategy.md)
+
+These chapters intentionally revisit earlier topics at a deeper level: boundary selection, lifecycle, failure injection, parallelism, diagnostic quality, CI economics and the specific failure modes senior engineers are expected to reason about.
