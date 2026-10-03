@@ -79,4 +79,4 @@ The value is actual constraint semantics, not "using Docker."
 
 - [Database engineering](https://github.com/YosrBennagra/database-engineering)
 - [API engineering](https://github.com/YosrBennagra/api-engineering)
-- [DevOps/platform engineering](https://github.com/YosrBennagra/devops-platform-engineering)
+- [DevOps/platform engineering](https://github.com/YosrBennagra/devops-platform-engineering-)

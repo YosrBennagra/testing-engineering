@@ -188,6 +188,6 @@ Do not optimize Angular/frontend, thread pools or HTTP clients first. The eviden
 
 - [Performance/security](07-performance-security.md)
 - [Flakiness/CI/distributed](08-flakiness-ci-distributed.md)
-- [DevOps/platform engineering](https://github.com/YosrBennagra/devops-platform-engineering)
+- [DevOps/platform engineering](https://github.com/YosrBennagra/devops-platform-engineering-)
 - [Application security](https://github.com/YosrBennagra/application-security)
 - [Observability/reliability](https://github.com/YosrBennagra/observability-reliability)

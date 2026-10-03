@@ -226,4 +226,4 @@ Provider verification must still run against the real provider endpoint, with do
 - [Contract/DB/Testcontainers core](04-contract-db-testcontainers.md)
 - [API engineering](https://github.com/YosrBennagra/api-engineering)
 - [Database engineering](https://github.com/YosrBennagra/database-engineering)
-- [DevOps/platform engineering](https://github.com/YosrBennagra/devops-platform-engineering)
+- [DevOps/platform engineering](https://github.com/YosrBennagra/devops-platform-engineering-)
