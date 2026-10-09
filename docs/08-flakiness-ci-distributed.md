@@ -81,4 +81,4 @@ And both deliveries leave consistent state
 ## Related / Prerequisite Links
 
 - [System design](https://github.com/YosrBennagra/system-design)
-- [DevOps/platform engineering](https://github.com/YosrBennagra/devops-platform-engineering-)
+- [DevOps/platform engineering](https://github.com/YosrBennagra/devops-platform-engineering)

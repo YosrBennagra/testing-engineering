@@ -29,7 +29,7 @@ Use the [A4 wall note](wall-notes/testing-a4.md) for recall and the [senior ques
 | Frontend testing | component/user behavior boundaries | [angular-mastery](https://github.com/YosrBennagra/angular-mastery) |
 | Security testing | test strategy and placement | [application-security](https://github.com/YosrBennagra/application-security) |
 | Performance | workload/SLO evidence | [system-design](https://github.com/YosrBennagra/system-design) |
-| CI gates | testing signal and gate design | [devops-platform-engineering](https://github.com/YosrBennagra/devops-platform-engineering-) |
+| CI gates | testing signal and gate design | [devops-platform-engineering](https://github.com/YosrBennagra/devops-platform-engineering) |
 
 ## Progress checklist
 
