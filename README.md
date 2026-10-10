@@ -1,6 +1,6 @@
 # Testing Engineering — 0 → Expert
 
-> **Cheat sheet:** [CHEAT-SHEET.md](CHEAT-SHEET.md) (dense one-to-two-page revision sheet to print and keep on the wall)
+> **Cheat sheet:** [CHEAT-SHEET.md](CHEAT-SHEET.md) (dense one-to-two-page revision sheet to print and keep on the wall) · **Hub:** [software-engineer-roadmap](https://github.com/YosrBennagra/software-engineer-roadmap) · **Full-stack roadmap:** [fullstack-engineer-roadmap](https://github.com/YosrBennagra/fullstack-engineer-roadmap)
 
 A practical knowledge base for designing trustworthy software-testing systems. The goal is not "write more tests"; it is to build **fast, deterministic, risk-driven evidence** that software behaves correctly across boundaries.
 

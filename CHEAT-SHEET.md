@@ -43,7 +43,7 @@ Risk → Boundary → Stimulus → Oracle → Isolation → Feedback
 - Use the **production DB engine** (Testcontainers), not H2, when SQL/dialect/constraints matter.
 - Rollback-per-test (`@Transactional` test) hides commit-time behaviour, after-commit listeners and constraint timing.
 - Each test owns its data. Avoid shared mutable fixtures, fixed ports and order dependence.
-- Spring context caching: avoid needless `@MockBean`/`@MockitoBean` variants and `@DirtiesContext`.
+- Spring context caching: avoid needless `@MockitoBean` variants and `@DirtiesContext` (`@MockBean` is removed in Boot 4).
 
 ## Advanced techniques
 | Technique | Answers |
